@@ -1,0 +1,16 @@
+user should be able to click on image of project and be taken to that hosted project
+user should be able to click on repo link below the image to be taken to the repo so they can look at the source code
+
+links
+- github: takes them to my github profile
+- email: takes them to their email client via mailto
+- twitter: my twitter dms
+- resume: pdf? of my resume
+
+components
+- project container
+  - link to hosted project with image
+  - button with link to github repo
+  - ul of how the app works and technologies used
+- contact
+  - link with icon for each type (e.g. resume, twitter, github, etc...)
