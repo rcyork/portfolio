@@ -9,6 +9,7 @@ links
 
 components
 - project container
+  - section heading
   - link to hosted project with image
   - button with link to github repo
   - ul of how the app works and technologies used
