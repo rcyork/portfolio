@@ -25,7 +25,8 @@ export const ProjectShowcase = ({ project }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Project Repository
+        <i className="fab fa-github fa-2x githubIcon" />
+        <span className="linkText">Project Repository</span>
       </a>
     </div>
   );

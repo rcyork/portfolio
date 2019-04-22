@@ -1,0 +1,4 @@
+.projects {
+  display: grid;
+  grid-auto-flow: rows;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 
 import { CONTACT_DATA } from "../../contact_data";
+import "./ContactMe.css";
 
 export const ContactMe = () => {
   return (
@@ -11,7 +12,6 @@ export const ContactMe = () => {
             <a href={item.link} target="_blank" rel="noopener noreferrer">
               <i className={item.class} />
             </a>
-            <p>{item.text}</p>
           </div>
         );
       })}

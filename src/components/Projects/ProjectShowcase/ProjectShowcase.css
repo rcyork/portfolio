@@ -1,4 +1,44 @@
+.projectWrap {
+  display: grid;
+  grid-template-rows: repeat(4, max-content);
+  justify-content: center;
+}
+
 img {
   width: 300px;
   height: 200px;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.description {
+  list-style: disc;
+  list-style-position: inside;
+  margin-bottom: 1rem;
+}
+
+.description li {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.repoLink {
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  background: grey;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  text-decoration: none;
+  align-items: center;
+  grid-gap: 0.75rem;
+  border-radius: 5px;
+  width: max-content;
 }

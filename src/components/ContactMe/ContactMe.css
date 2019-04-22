@@ -1,0 +1,15 @@
+.contact {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.linkWrap {
+  display: inline-block;
+  padding: 1rem;
+  background: grey;
+  width: max-content;
+  border-radius: 5px;
+}
