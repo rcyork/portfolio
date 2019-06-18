@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.linkWrap {
+#linkWrap {
   display: inline-block;
   padding: 0.5rem;
   background: grey;
