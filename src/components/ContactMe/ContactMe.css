@@ -1,15 +1,47 @@
 .contact {
+  max-width: 100%;
   display: grid;
-  grid-auto-columns: max-content;
   grid-auto-flow: column;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   justify-content: center;
 }
 
 .linkWrap {
   display: inline-block;
-  padding: 1rem;
+  padding: 0.5rem;
   background: grey;
   width: max-content;
   border-radius: 5px;
+}
+
+.linkWrap:hover {
+  cursor: pointer;
+  background: var(--blue);
+}
+
+#linkWrap {
+  color: white;
+}
+
+.resumeWrap {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-content: center;
+}
+
+.resume {
+  display: grid;
+  align-content: center;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media all and (min-width: 500px) {
+  .contact {
+    grid-gap: 1rem;
+  }
+  .linkWrap {
+    padding: 1rem;
+  }
 }

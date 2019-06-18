@@ -5,15 +5,17 @@ import "./ProjectShowcase.css";
 export const ProjectShowcase = ({ project }) => {
   return (
     <div className="projectWrap">
-      <h3 className="title">{project.title}</h3>
-      <a
-        href={project.link}
-        className="link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={project.img} alt={project.altText} />
-      </a>
+      <div className="projectLinkWrap">
+        <h3 className="title">{project.title}</h3>
+        <a
+          href={project.link}
+          className="link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={project.img} alt={project.altText} />
+        </a>
+      </div>
       <ul className="description">
         {project.description.map((text, index) => {
           return <li key={index}> {text}</li>;

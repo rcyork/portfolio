@@ -11,9 +11,8 @@ class App extends React.Component {
         <h1 className="name">Ryan York</h1>
         <p className="jobDescription">Front-End Developer</p>
         <SectionHeading text="Projects" />
-
         <Projects />
-        <SectionHeading text="Contact Me" />
+        <SectionHeading text="Links / Contact Me" />
         <ContactMe />
       </div>
     );

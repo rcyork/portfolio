@@ -1,20 +1,29 @@
 .projectWrap {
   display: grid;
-  grid-template-rows: repeat(4, max-content);
+  grid-template-rows: max-content 1fr max-content;
   justify-content: center;
 }
 
+.projectLinkWrap {
+  text-align: center;
+}
+
 img {
-  width: 300px;
-  height: 200px;
+  max-width: 280px;
+  max-height: 200px;
+  object-fit: contain;
   margin: auto;
   border-radius: 5px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
 
 .title {
   font-size: 1.75rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   display: block;
 }
 
@@ -27,13 +36,14 @@ img {
 .description li {
   font-size: 1.25rem;
   line-height: 1.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .repoLink {
   margin: auto;
   margin-bottom: 2rem;
   padding: 0.5rem 1rem;
-  background: grey;
+  background: var(--blue);
   display: grid;
   grid-template-columns: max-content max-content;
   text-decoration: none;
@@ -41,4 +51,20 @@ img {
   grid-gap: 0.75rem;
   border-radius: 5px;
   width: max-content;
+}
+
+.repoLink .linkText,
+.githubIcon {
+  color: white;
+}
+
+@media all and (min-width: 500px) {
+  img {
+    max-width: 200px;
+  }
+}
+@media all and (min-width: 650px) {
+  img {
+    max-width: 300px;
+  }
 }

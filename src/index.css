@@ -4,6 +4,8 @@
 
 body {
   font-family: sans-serif;
+  background: var(--black);
+  color: var(--grey_light);
 }
 
 a:visited {

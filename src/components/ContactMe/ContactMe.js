@@ -8,11 +8,19 @@ export const ContactMe = () => {
     <div className="contact">
       {CONTACT_DATA.map(item => {
         return (
-          <div className="linkWrap" key={item.text}>
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <i className={item.class} />
-            </a>
-          </div>
+          <a
+            id="linkWrap"
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`linkWrap ${item.text === "résumé" ? "resumeWrap" : ""}`}
+            key={item.text}
+          >
+            <i className={item.class} />
+            {item.text === "résumé" ? (
+              <p className="resume">{item.text}</p>
+            ) : null}
+          </a>
         );
       })}
     </div>
