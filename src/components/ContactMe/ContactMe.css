@@ -6,13 +6,12 @@
   justify-content: center;
 }
 
-#linkWrap {
+.linkWrap {
   display: inline-block;
   padding: 0.5rem;
   background: grey;
   width: max-content;
   border-radius: 5px;
-  text-decoration: none;
 }
 
 .linkWrap:hover {
@@ -22,6 +21,7 @@
 
 #linkWrap {
   color: white;
+  text-decoration: none;
 }
 
 .resumeWrap {
