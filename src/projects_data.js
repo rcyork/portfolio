@@ -17,7 +17,7 @@ export const PROJECTS = [
   },
   {
     title: "potty tracker",
-    link: "https://potty-tracker.herokuapp.com/",
+    link: "http://18.219.43.162",
     description: [
       "Used to track dogs potty habits to aid in training",
       "Also helpful so everyone in a household can check if the dog(s) needs to be let out",
