@@ -12,6 +12,7 @@
   background: grey;
   width: max-content;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .linkWrap:hover {
