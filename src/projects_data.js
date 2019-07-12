@@ -1,7 +1,22 @@
 import pianoImg from "./assests/piano-game.png";
 import pottyTrackerImg from "./assests/potty-tracker.png";
 import workoutImg from "./assests/workout.png";
+import exampleSiteImg from "./assests/example-site.png";
 export const PROJECTS = [
+  {
+    title: "example site",
+    link: "https://rcyork.github.io/example-site/",
+    description: [
+      "Generic example site with common components",
+      "Responsive design",
+      "HTML5",
+      "CSS3 (Sass)",
+      "A few lines of vanilla JS (ES2015+)"
+    ],
+    repo: "https://github.com/rcyork/example-site",
+    img: exampleSiteImg,
+    alt: "website screenshot"
+  },
   {
     title: "piano game",
     link: "https://rcyork.github.io/piano-game/",
@@ -15,6 +30,7 @@ export const PROJECTS = [
     img: pianoImg,
     alt: "website screenshot"
   },
+
   {
     title: "potty tracker",
     link: "http://18.219.43.162",
