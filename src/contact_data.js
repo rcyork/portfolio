@@ -2,7 +2,7 @@ export const CONTACT_DATA = [
   {
     text: "email",
     class: "fas fa-envelope fa-2x",
-    link: "mailto:replyanyork@gmail.com"
+    link: "mailto:ryanyorkdev@gmail.com"
   },
   {
     text: "github",
